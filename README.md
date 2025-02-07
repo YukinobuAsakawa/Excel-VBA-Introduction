@@ -2,6 +2,7 @@
 
 ## 生年月日から今日時点での年齢を求めるVBA
 
+''
 Sub 計算_年齢_FG列()
     Dim ws As Worksheet
     Dim lastRow As Long
@@ -43,3 +44,4 @@ Sub 計算_年齢_FG列()
     ' 終了メッセージ
     MsgBox "年齢計算が完了しました！", vbInformation
 End Sub
+''
