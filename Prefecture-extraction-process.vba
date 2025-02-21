@@ -21,7 +21,7 @@ Sub ExtractPrefecture()
     For Each cell In rng
         For i = LBound(prefectures) To UBound(prefectures)
             If InStr(cell.Value, prefectures(i)) > 0 Then
-                cell.Offset(0, 1).Value = prefectures(i) ' B列に抽出結果を出力
+                cell.Offset(0, 1).Value = prefectures(i) ' N列に抽出結果を出力
                 Exit For
             End If
         Next i
