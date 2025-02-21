@@ -1,0 +1,1 @@
+=IF(OR(LEFT(M2,2)="大阪", LEFT(M2,2)="京都"), LEFT(M2,2), LEFT(M2,3))
